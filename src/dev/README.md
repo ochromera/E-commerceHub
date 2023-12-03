@@ -19,7 +19,7 @@ export const PaletteTree = () => (
   <Palette>
     <AntdPalette/> 
     <ReactIntlPalette/>
-    <Category name="App templates">
+    <Categories name="App templates">
       <Component name="Card">
         <Variant name="Loading">
           <Card title="Card title">
@@ -32,7 +32,7 @@ export const PaletteTree = () => (
       <Component name="Form">
         <Variant proto={FormTemplate}/>
       </Component>
-    </Category>
+    </Categories>
   </Palette>
 )
 ```
