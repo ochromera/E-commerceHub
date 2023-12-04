@@ -1,13 +1,11 @@
 import { createTheme } from '@mui/material';
-
-export const theme = createTheme({
+ export const theme = createTheme({
   palette: {
-    primaryColor: {
-      main: '#ffffff'
+    primary: {
+      main: '#F5F5DC'
     },
-    secondaryColor: {
-      contrastText: '#56606E',
-      light: '#F1F1F1',
+    secondary: {
+      main: '#F1F1F1',
       dark: '#66606E'
     },
     myCustomColor: {
@@ -16,7 +14,7 @@ export const theme = createTheme({
       grey: '#56606E',
       greyLight: '#8A909D',
       yellow: '#FEC400',
-       blue:'#88AAF3',
+      blue:'#88AAF3',
       gold:'#DDAA04',
       lightGrey:'#56606E',
       black:'#000000'
@@ -37,5 +35,4 @@ export const theme = createTheme({
     },
   },
 });
-
 

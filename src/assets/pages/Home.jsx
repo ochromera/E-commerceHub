@@ -1,11 +1,15 @@
 import React from 'react';
-import {Typography} from "@mui/material";
+import {Typography,Container} from "@mui/material";
 import Box from "@mui/material/Box";
+// import { Header } from '../../components/Header.jsx';
 
 const Home = () => {
     return (
         <Box>
-          <Typography variant="h1">Home Page</Typography>
+          {/*<Header />*/}
+          <Container>
+          <Typography variant="h3">Home Page</Typography>
+          </Container>
         </Box>
     );
 };

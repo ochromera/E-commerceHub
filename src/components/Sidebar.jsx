@@ -1,8 +1,12 @@
 import React from 'react';
-import { Typography } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 
 export const Sidebar = () => {
     return (
-        <Typography variant="h3">Sidebar</Typography>
+      <Box sx={{ flexGrow: 1 }}>
+        <Typography variant="h4">Sidebar</Typography>
+      </Box>
+
+
     );
 };
